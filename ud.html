@@ -71,13 +71,13 @@
 </main>
 
 <script>
-const scriptURL ='https://script.google.com/macros/s/AKfycbzMBh3xLqrjISg52KpwkLZoLj0gCOHPaO9wplR-OPxphWuSIMuBKWIkXwaeysiRlVAo/exec'
+const scriptURL ='https://script.google.com/macros/s/AKfycbxWRXt8tgN7RMZQ1wd7VgAfSjlCPJJAKwajU6hX1cxJpBgO_e4Hi1Er6yxrduLBEePp/exec'
 const form = document.forms['Contact']
 
 form.addEventListener('submit', e => {
 e.preventDefault()
 fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-.then(response => document.getElementById("demo").innerHTML = "<div class=’alert alert-primary’ role=’alert’><b>Thank You for providing the details, We shall get back to you shortly !</b></div>",contact.reset())
+.then(response => document.getElementById("demo").innerHTML = "<div class=’alert alert-primary’ role=’alert’><b>Thank</b></div>",contact.reset())
 .catch(error => console.error('Error!', error.message))
 })
 </script>
