@@ -17,14 +17,14 @@
 <div class="py-lg-5 py-md-4 py-sm-3 py-2"></div>
 <div class="row justify-content-center pt-5">
 <div class="col-lg-7 col-md-10">
-<h3 class="fw-normal text-center mb-5 border-bottom pb-2">new  app on tnt box for dev</h3>
+<h3 class="fw-normal text-center mb-5 border-bottom pb-2">new uew on tnt box for dev</h3>
 
 <form class="form_overlay" method="POST" accept-charset="UTF-8" autocomplete="off" name="contact">
 <div class="row g-4">
 <div class="col-lg-6">
 <div class="input_overlay">
 <label for="fname" class="lable">Enter your first name</label>
-<input type="text" name="first_name" class="form-control" required autocomplete="off">
+<input type="text" name="first_name_up" class="form-control" required autocomplete="off">
 </div>
 </div>
 <div class="col-lg-6">
@@ -71,13 +71,13 @@
 </main>
 
 <script>
-const scriptURL ='https://script.google.com/macros/s/AKfycbxWRXt8tgN7RMZQ1wd7VgAfSjlCPJJAKwajU6hX1cxJpBgO_e4Hi1Er6yxrduLBEePp/exec'
-const form = document.forms['Contact']
+const scriptURL ='https://script.google.com/macros/s/AKfycbz8g8HXcwnFmeyo971Z44Vq9LMokd1g41Bi6A_8ehV1Fzw7b6fx6pu0-rRLXrp01jGl/exec'
+const form = document.forms['contact']
 
 form.addEventListener('submit', e => {
 e.preventDefault()
 fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-.then(response => document.getElementById("demo").innerHTML = "<div class=’alert alert-primary’ role=’alert’><b>Thank</b></div>",contact.reset())
+.then(response => document.getElementById("demo").innerHTML = "<div class=’alert alert-primary’ role=’alert’><b>Thank You for providing the details, We shall get back to you shortly !</b></div>",contact.reset())
 .catch(error => console.error('Error!', error.message))
 })
 </script>
