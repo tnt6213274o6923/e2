@@ -23,7 +23,7 @@ tnt.suraphat
 
 tnt.benjamas
 
-                   https://tnt-boxsxdfghjk-code-zx7h.vercel.app/
+                   https://tntlthl.tk/tntbox
 
 ## ------------------------------------------------------
                   by tnt app games dev 2023 @ tnt
