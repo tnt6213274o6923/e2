@@ -11,7 +11,7 @@ a app/wbe download app games for by tnt
 
 
 ## 🚀 how tooo go to wbe
-url : https://tnt-boxsxdfghjk-code-zx7h.vercel.app/
+url : https://tntlthl.tk/tntbox
 
 ## mail
 
